@@ -1,6 +1,6 @@
-macro_super-enter: macro_super-enter{
+macro_superenter: macro_superenter{
 compatible = "zmk,behavior-macro";
-label = "macro_super-enter";
+label = "macro_superenter";
 #binding-cells = <0>;
 bindings = <&sk LEFT_COMMAND>, <&kp ENTER>;
 };
