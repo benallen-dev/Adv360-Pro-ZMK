@@ -8,7 +8,7 @@ macro_shiftsuper: macro_shiftsuper{
 compatible = "zmk,behavior-macro";
 label = "macro_shiftsuper";
 #binding-cells = <0>;
-bindings = <&sk LEFT_SHIFT>, <&kp RGUI>;
+bindings = <&sk LEFT_SHIFT>, <&sk RGUI>;
 };
 macro_superenter: macro_superenter{
 compatible = "zmk,behavior-macro";
